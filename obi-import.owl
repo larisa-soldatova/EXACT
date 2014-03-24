@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://ontofox.hegroup.org/mrh5qabf.owl#"
+     xml:base="http://ontofox.hegroup.org/mrh5qabf.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/mrh5qabf.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000007 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000007">
+        <rdfs:label xml:lang="en">process</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A processual entity  that is a maximally connected spatiotemporal whole and has bona fide beginnings and endings corresponding to real discontinuities.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">process</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000008">
+        <rdfs:label xml:lang="en">temporal region</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An occurrent  that is part of time.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">temporal region</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000021 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000021">
+        <rdfs:label xml:lang="en">temporal instant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000008"/>
+        <obo:IAO_0000115 xml:lang="en">A connected temporal region  comprising a single moment of time.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">temporal instant</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000029">
+        <rdfs:label xml:lang="en">site</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant  consisting of a characteristic spatial shape in relation to some arrangement of other continuant  entities and of the medium which is enclosed in whole or in part by this characteristic spatial shape. Site  entities are entities that can be occupied by other continuant  entities.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">site</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000038">
+        <rdfs:label xml:lang="en">temporal interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000008"/>
+        <obo:IAO_0000115 xml:lang="en">A connected temporal region  lasting for more than a single moment of time.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">temporal interval</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">material entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <owl:Class rdf:about="&obo;GAZ_00000448">
+        <rdfs:label xml:lang="en">geographical location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000029"/>
+        <obo:IAO_0000115>A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">geographical location</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000030">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some material entity and stands in relation of aboutness to some entity</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000300">
+        <rdfs:label xml:lang="en">textual entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">text</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">textual entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000305 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000305">
+        <rdfs:label xml:lang="en">document title</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that names a document</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">document title</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000306 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000306">
+        <rdfs:label xml:lang="en">table</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that contains a two-dimensional arrangement of texts repeated at regular intervals across a spatial range, such that the spatial relationships among the constituent texts expresses propositions</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">table</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000426 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000426">
+        <rdfs:label xml:lang="en">injection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000007"/>
+        <obo:IAO_0000111 xml:lang="en">injection</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">injection is process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302905 -->
+
+    <owl:Class rdf:about="&obo;OBI_0302905">
+        <rdfs:label xml:lang="en">elution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000007"/>
+        <obo:IAO_0000111 xml:lang="en">elution</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">the process of extracting one material from another by washing with a solvent to remove adsorbed material from an adsorbent (as in washing of loaded ion-exchange resins to remove captured ions)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000120">
+        <rdfs:label xml:lang="en">metadata complete</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">metadata complete</obo:IAO_0000111>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">pending final vetting</obo:IAO_0000111>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
