@@ -351,6 +351,9 @@
         <Class IRI="#OWLClass_92c1d888_e0d3_4845_829b_1e952e8f1b1b"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_94537316_67e2_4c68_9a53_6772176a3c81"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_98fc2b7b_ed35_453a_8d05_8dfcf81df114"/>
     </Declaration>
     <Declaration>
@@ -364,6 +367,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a24e4946_9399_4a64_8133_2d6e3ae3e35b"/>
@@ -390,6 +396,9 @@
         <Class IRI="#OWLClass_d227d2d5_49e4_49f3_a094_bd10628b1a87"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_d7008553_d906_425e_a85d_eae66497f840"/>
     </Declaration>
     <Declaration>
@@ -397,6 +406,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f37c8bc0_049a_448c_a917_a947f6104ac6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f52f0377_7bc1_45c4_a949_00d581b0e235"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_fede789e_08ff_4d4a_bf4a_cd6f393a670d"/>
@@ -1900,6 +1912,10 @@
         <Class IRI="#OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_94537316_67e2_4c68_9a53_6772176a3c81"/>
+        <Class IRI="#OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_98fc2b7b_ed35_453a_8d05_8dfcf81df114"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
     </SubClassOf>
@@ -1925,6 +1941,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f"/>
         <Class IRI="#OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2"/>
+        <Class IRI="#OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_a24e4946_9399_4a64_8133_2d6e3ae3e35b"/>
@@ -2015,6 +2035,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b"/>
+        <Class IRI="#OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_d7008553_d906_425e_a85d_eae66497f840"/>
         <Class IRI="#OWLClass_52b622c0_c5f0_40b4_bfba_e04fe83f73f7"/>
     </SubClassOf>
@@ -2032,6 +2056,10 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
             <Class IRI="#OWLClass_73dc6c0b_f3ca_475a_9cb1_03dcc16f75b1"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f52f0377_7bc1_45c4_a949_00d581b0e235"/>
+        <Class IRI="#OWLClass_33e68fe3_11a7_4944_b60a_c2c8b501bf7b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_fede789e_08ff_4d4a_bf4a_cd6f393a670d"/>
@@ -3745,6 +3773,11 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">(optional) equipment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_94537316_67e2_4c68_9a53_6772176a3c81</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mode of combination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#OWLClass_98fc2b7b_ed35_453a_8d05_8dfcf81df114</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">a textual entity that can be ignored by an automatic agent. The goal is to give additional information to the user.</Literal>
@@ -3788,6 +3821,11 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a12b7240_d9d1_4b4c_9074_8f74523d905f</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">(optional) condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">command action</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#is_definition"/>
@@ -3874,6 +3912,11 @@ Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publisher
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">suspend</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">assessment action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_d7008553_d906_425e_a85d_eae66497f840</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">start location (optional) is a location of a biochemical entity or equipment at the beginning of an experiment action</Literal>
@@ -3903,6 +3946,11 @@ Reference: Based on  WordNet: http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?s
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f37c8bc0_049a_448c_a917_a947f6104ac6</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">(optional) goal of experiment action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f52f0377_7bc1_45c4_a949_00d581b0e235</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">equipment setup action</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
