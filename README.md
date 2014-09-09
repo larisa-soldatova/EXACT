@@ -5,5 +5,5 @@ An ontology for biomedical protocols. Please see the recent article about EXACT 
 
 Please download EXACT2 and all external files required for EXACT (obi-import, obi-rel, pato-import, ro-import) and save all the files to the same directory.
 
-v
-28.8.14
+
+9.9.14
