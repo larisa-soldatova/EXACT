@@ -3630,9 +3630,19 @@ Reference:based on BIOLOGY ONLINE DICTIONARY http://www.biology-online.org/dicti
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">continue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_039e18d6_76e9_42a7_9965_9b2c1dd16a6b</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_08b1a362_6766_4783_8c3f_38aff979b059</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_08b1a362_6766_4783_8c3f_38aff979b059</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3661,9 +3671,19 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mode of separation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_12bbde6f_a9f2_48fd_94a9_be38e49c936a</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2579c158_db35_499c_a17f_47700d01980a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">proposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_2579c158_db35_499c_a17f_47700d01980a</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3691,9 +3711,19 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">de-lid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_619d2bfa_af4a_4bb1_bd83_395e4d19e08d</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_6449c8f2_cbb0_4b78_9408_73c36c444659</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mode of transformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_6449c8f2_cbb0_4b78_9408_73c36c444659</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3714,6 +3744,11 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_705c1d8b_d7b2_455e_9f80_d4bc62eb57b1</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_705c1d8b_d7b2_455e_9f80_d4bc62eb57b1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3778,6 +3813,11 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mode of combination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_94537316_67e2_4c68_9a53_6772176a3c81</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#OWLClass_98fc2b7b_ed35_453a_8d05_8dfcf81df114</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">a textual entity that can be ignored by an automatic agent. The goal is to give additional information to the user.</Literal>
@@ -3826,6 +3866,11 @@ http://purl.obolibrary.org/obo/obi.owl</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">command action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_a14317a6_fac8_4c28_be9f_7871b7ed04b2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#is_definition"/>
@@ -3900,6 +3945,11 @@ http://purl.obolibrary.org/obo/IAO_0000301
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_c4fbbd5a_e8c3_4c16_ad35_2156b36a965d</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#is_definition"/>
         <IRI>#OWLClass_d227d2d5_49e4_49f3_a094_bd10628b1a87</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">is an experimental action to &quot;cause (particles) to be held in suspension in a fluid&quot;
@@ -3915,6 +3965,11 @@ Reference: based on COLLINS SOFTBACK ENGLISH DICTIONARY, HarperCollins Publisher
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">assessment action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_d2fc6249_808f_43f4_9c3a_6a54de4a301b</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3953,9 +4008,19 @@ Reference: Based on  WordNet: http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?s
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">equipment setup action</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_f52f0377_7bc1_45c4_a949_00d581b0e235</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_fede789e_08ff_4d4a_bf4a_cd6f393a670d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#OWLClass_fede789e_08ff_4d4a_bf4a_cd6f393a670d</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
